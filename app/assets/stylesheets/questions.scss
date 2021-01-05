@@ -12,19 +12,24 @@ p {
   font-weight: regular;
 }
 
-input {
-  margin: 0;
+.submit-btn, .question-input, a {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 4px
 }
 
-.submit-btn {
+.submit-btn, a {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   font-size: 16px;
-  background-color: #ff7b54;
-  padding: 8px 16px;
-  border-radius: 4px;
+  background-color: #00587a;
   border: none;
+  color: white;
+  border: 1px solid transparent;
+  text-decoration: none;
 }
 
 .question-input {
+  border: 1px solid lightgray;
 }
