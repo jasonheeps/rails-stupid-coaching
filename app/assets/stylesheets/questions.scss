@@ -1,0 +1,30 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Oswald:wght@400;700&display=swap');
+
+h1 {
+  font-family: 'Hanalei Fill', cursive;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: regular;
+}
+
+input {
+  margin: 0;
+}
+
+.submit-btn {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff7b54;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.question-input {
+}
