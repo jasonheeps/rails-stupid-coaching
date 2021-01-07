@@ -1,5 +1,10 @@
 <!-- er + tab for invisible ruby -->
 <!-- pe + tab for visible ruby -->
 <%= link_to "ask another question", ask_path %>
-<p>your question: <%= @question %></p>
-<p>coach's answer: <%= @answer %></p>
+<div class="quote-container">
+  <p class="quote"><%= @question %> <br>- <em>You</em></p>
+</div>
+
+<div class="quote-container">
+  <p class="quote"><%= @answer %> <br> - <em>Coach</em></p>
+</div>
